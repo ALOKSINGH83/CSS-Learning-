@@ -1,11 +1,14 @@
  h1{
     color: black;
+    background-color: gray;
 }
 
 p {
     color: rgb(5, 5, 99);
+    background-color:rgb(157, 208, 191)
 }
 
 button {
-    color:chocolate;
+    color: gold;
+    background-color: black;
 }
