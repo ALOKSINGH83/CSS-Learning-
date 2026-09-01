@@ -1,14 +1,15 @@
  h1{
-    color: black;
-    background-color: gray;
+    text-align: center;
 }
 
 p {
-    color: rgb(5, 5, 99);
-    background-color:rgb(157, 208, 191)
+    text-align: start
 }
 
-button {
-    color: gold;
-    background-color: black;
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
 }
