@@ -2,11 +2,14 @@
     text-align: center;
     text-decoration: wavy red underline;
     letter-spacing: 2px;
+    font-size: 50px;
+    font-family: arial;
 }
 
 p {
     text-align: start;
     font-weight: normal;
+    font-size: 20px;
 }
 
 h2 {
@@ -14,6 +17,7 @@ h2 {
     font-weight: bold;
     text-decoration: overline;
     line-height: 1.5;
+    font-family: impact;
 }
 
 h3 {
