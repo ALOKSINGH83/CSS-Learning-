@@ -30,3 +30,12 @@ h3 {
 nav ul li a {
     color: rgb(228, 121, 139);
 }
+
+p + h3 {
+    text-decoration: underline;
+}
+
+.upvote + button {
+    background-color: cornflowerblue;
+    color: rgb(81, 4, 4);
+}
