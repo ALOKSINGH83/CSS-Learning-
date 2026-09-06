@@ -39,3 +39,7 @@ p + h3 {
     background-color: cornflowerblue;
     color: rgb(81, 4, 4);
 }
+
+div > input {
+    background-color:bisque;
+}
