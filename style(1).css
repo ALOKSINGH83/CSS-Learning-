@@ -21,3 +21,12 @@ h3 {
     background-color: rgb(76, 163, 76);
     color: rgb(207, 247, 249);
 }
+
+.post a {
+    color: purple;
+    background-color:aliceblue;
+}
+
+nav ul li a {
+    color: rgb(228, 121, 139);
+}
