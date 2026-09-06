@@ -42,4 +42,13 @@ p + h3 {
 
 div > input {
     background-color:bisque;
+    color:#b92b27;
+}
+
+input [type~="text"] {
+    color: red;
+}
+
+input [type~="password"] {
+    color: green;
 }
