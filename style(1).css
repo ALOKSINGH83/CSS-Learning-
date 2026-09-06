@@ -45,10 +45,39 @@ div > input {
     color:#b92b27;
 }
 
-input [type~="text"] {
+input[type="text"] {
     color: red;
 }
 
-input [type~="password"] {
+input[type="password"] {
     color: green;
+}
+
+button:hover {
+    background-color:steelblue;
+    color: white;
+}
+
+h3:hover {
+    color:rgb(42, 80, 4);
+    text-decoration: none;
+}
+
+p:active {
+    font-weight: 900;
+    color:darkcyan;
+}
+
+button:active {
+    background-color:hotpink;
+    color: black;
+}
+
+input[type="radio"]:checked + label {
+    color: red;
+    font-weight: 900;
+}
+
+div:nth-of-type(2n) {
+    background-color:beige;
 }
