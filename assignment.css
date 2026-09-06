@@ -1,37 +1,38 @@
-p {
-    color: #A52A2A;
-    text-align: center;
-    font-family: Georgia;
-    line-height: 30px;
+#mainTopic {
+    color: blue;
 }
 
-h1 {
+* {
     text-align: center;
+}
+
+h1, h3, h5 {
+    font-family:Georgia;
+}
+
+.para {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+div button {
+    background-color:purple;
+    color:azure;
+}
+
+button:hover {
+    background-color:yellow;
+    color:blue;
+}
+
+p:nth-of-type(2n-1) {
+    color:yellow;
+}
+
+h1::first-letter {
     color: red;
-    font-family: Georgia;
 }
 
-h3 {
-    text-align: center;
-    color: black;
-    font-family: Georgia;
-}
-
-h4 {
-    text-align: center;
-    font-family: Georgia;
-}
-
-a {
-    text-decoration: none;
-    color: rgb(0, 255, 0);
-}
-
-button {
-    background-color: #ffffff;
-    color: blueviolet;
-}
-
-textarea {
-    color: black;
+input[type="checkbox"]:checked + label {
+    color:darkgreen;
 }
