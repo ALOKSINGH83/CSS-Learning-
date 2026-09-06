@@ -16,3 +16,8 @@ h3 {
     background-color:#b92b27;
     color: white;
 }
+
+.upvote {
+    background-color: rgb(76, 163, 76);
+    color: rgb(207, 247, 249);
+}
