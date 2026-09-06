@@ -1,4 +1,4 @@
-* {
+/* {
     font-family:'Courier New';
 }
 
@@ -93,4 +93,16 @@ p::first-line {
 
 p::selection {
     background-color:rgb(247, 238, 159);
+}  */
+
+div {
+    background-color: yellow;
+}
+
+input {
+    background-color: inherit;
+}
+
+button {
+    background-color: inherit;
 }
