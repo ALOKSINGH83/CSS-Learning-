@@ -2,4 +2,12 @@ div {
     height: 200px;
     width: 500px;
     background-color: pink;
+    border-width: 5px;
+    border-style: double;
+    border-color: black;
+    border-top: 5px solid gray;
+}
+
+h1 {
+    border: 2px dashed rgb(76, 4, 4);
 }
