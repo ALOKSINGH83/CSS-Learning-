@@ -3,11 +3,16 @@ div {
     width: 500px;
     background-color: pink;
     border-width: 5px;
-    border-style: double;
+    border-style: solid;
     border-color: black;
-    border-top: 5px solid gray;
+    border-radius: 10px;
 }
 
 h1 {
     border: 2px dashed rgb(76, 4, 4);
+}
+
+button {
+    height: 30px;
+    border-radius: 25%;
 }
