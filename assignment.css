@@ -1,8 +1,5 @@
-div {
-    height: 100px;
-    width: 100px;
-    background-color: pink;
-    border: 2px solid black;
-    border-radius: 50%;
-    display: inline-block;
+li {
+    display: inline;
 }
+
+/*When you apply display: inline or display: inline-block, you strip away the internal list-item box type. The browser treats the items like regular text or inline blocks, removing the generated bullet entirely.*/
