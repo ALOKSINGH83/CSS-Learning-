@@ -1,9 +1,19 @@
-h2 {
-    display: inline;
+h1 {
     background-color:bisque;
 }
 
 span {
-    display: block;
-    background-color:aquamarine;
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    padding: 50px;
+}
+
+div {
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    padding: 50px;
 }
