@@ -1,19 +1,8 @@
-h1 {
-    background-color:bisque;
-}
-
-span {
-    border: 2px solid black;
-    width: 200px;
-    height: 100px;
-    margin: 20px;
-    padding: 50px;
-}
-
 div {
+    height: 200px;
+    width: 150px;
+    margin: 5px;
     border: 2px solid black;
-    width: 200px;
-    height: 100px;
-    margin: 20px;
-    padding: 50px;
+    background-color: gray;
+    display: inline-block;
 }
