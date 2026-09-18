@@ -1,13 +1,26 @@
-div {
-    height: 100px;
-    width: 100px;
-    background-color: #00030c11;
-    transition: margin-top 2s ease-in 0.2s;
-    margin-top:10px;
-    margin: 0 auto;
+div:nth-of-type(2n) {
+    background-color: #2A835F;
 }
 
-div:hover {
-    margin-top: 400px;
-    background-color: pink;
+div:nth-of-type(3n) {
+    background-color: #8BBB92;
+}
+
+section {
+    margin-top: 100px;
+}
+
+div {
+    border: 2px solid black;
+    margin: 10px;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    background-color: #12544F;
+}
+
+/*Transformation*/
+
+#one {
+    transform: rotate(45deg);
 }
