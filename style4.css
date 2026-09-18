@@ -12,7 +12,7 @@ section {
 
 div {
     border: 2px solid black;
-    margin: 10px;
+    margin: 10px auto;
     text-align: center;
     height: 50px;
     width: 200px;
@@ -27,4 +27,8 @@ div {
 
 #two {
     transform: scale(0.5)
+}
+
+#three {
+    transform: translateX(75px);
 }
