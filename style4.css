@@ -1,42 +1,8 @@
-div:nth-of-type(2n) {
-    background-color: #2A835F;
-}
-
-div:nth-of-type(3n) {
-    background-color: #8BBB92;
-}
-
-section {
-    margin-top: 100px;
-}
-
 div {
-    border: 2px solid black;
+    box-shadow: 2px 2px 8px black;
     margin: 10px auto;
     text-align: center;
     height: 50px;
     width: 200px;
     background-color: #12544F;
-}
-
-/*Transformation*/
-
-#one {
-    transform: rotate(45deg);
-}
-
-#two {
-    transform: scale(0.5)
-}
-
-#three {
-    transform: translateX(75px);
-}
-
-#four {
-    transform: skew(30deg);
-}
-
-#five {
-    transform: rotate(30deg) translate(50px);
 }
