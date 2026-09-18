@@ -1,8 +1,9 @@
 div {
-    box-shadow: 2px 2px 8px black;
     margin: 10px auto;
-    text-align: center;
-    height: 50px;
-    width: 200px;
+    height: 600px;
+    width: 1200px;
     background-color: #12544F;
+    background-image: url("backgroundimg.jpg");
+    background-size:cover;
+    color:beige;
 }
