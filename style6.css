@@ -10,16 +10,13 @@
     animation-iteration-count: 5;
     animation-direction: alternate;*/
 
-    animation: fontAnimation 4s ease-in 0s 3 normal;
+    animation: colAnimation 5s ease-in 0s 3 normal;
 }
 
-@keyframes fontAnimation {
-    from {font-size: 20px;
-        background-color: blueviolet;
-        width: 10px;
-    }
-    to {font-size: 40px;
-        background-color: aqua;
-        width: 400px;
-    }
+@keyframes colAnimation {
+    0% {background-color: blueviolet;}
+    30% {background-color: turquoise;}
+    50% {background-color: aqua;}
+    75% {background-color: olivedrab;}
+    100% {background-color: green;}
 }
