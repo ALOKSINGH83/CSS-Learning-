@@ -4,12 +4,11 @@
     background-color: azure;
     margin: 10px auto;
     border: 2px solid black;
-    text-align: center;
-    color: white;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 h2 {
@@ -17,7 +16,9 @@ h2 {
 }
 
 #container div {
-    height: 100px;
+    height: 50px;
     width: 300px;
     font-size: 1.5em;
+    text-align: center;
+    color: white;
 }
