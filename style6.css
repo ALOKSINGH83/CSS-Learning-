@@ -21,3 +21,8 @@ h1 {
 @media (min-width: 300px) and (max-width: 800px) {
     h1{background-color: cornflowerblue;}
 }
+
+@media (orientation: landscape) {
+    h1{background-color: darkgoldenrod;
+    color: whitesmoke}
+}
