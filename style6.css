@@ -1,22 +1,11 @@
-.box {
-    height: 300px;
-    width: 400px;
-    background-color: pink;
-
-    /*animation-name: fontAnimation;
-    animation-duration: 4s;
-    animation-timing-function: ease-in;
-    animation-delay: 0;
-    animation-iteration-count: 5;
-    animation-direction: alternate;*/
-
-    animation: colAnimation 5s ease-in 0s 3 normal;
+h1 {
+    background-color: yellow;
+    border: 2px solid black;
 }
 
-@keyframes colAnimation {
-    0% {background-color: blueviolet;}
-    30% {background-color: turquoise;}
-    50% {background-color: aqua;}
-    75% {background-color: olivedrab;}
-    100% {background-color: green;}
+@media (width:400px) {
+    h1{
+        background-color: blueviolet;
+        color: white;
+    }
 }
