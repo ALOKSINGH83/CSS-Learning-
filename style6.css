@@ -1,28 +1,18 @@
-h1 {
-    background-color: yellow;
+.box {
     border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: pink;
 }
 
-@media (width:400px) {
-    h1{
-        background-color: blueviolet;
-        color: white;
-    }
+.one {
+    background-color: aquamarine;
+    position: relative;
 }
 
-@media (max-width:250px) {
-    h1{background-color: aqua;}
-}
-
-@media (min-width: 700px) {
-    h1{background-color: blue;}
-}
-
-@media (min-width: 300px) and (max-width: 800px) {
-    h1{background-color: cornflowerblue;}
-}
-
-@media (orientation: landscape) {
-    h1{background-color: darkgoldenrod;
-    color: whitesmoke}
+.two {
+    background-color: cadetblue;
+    position: relative;
+    bottom: 50px;
+    z-index: -1;
 }
