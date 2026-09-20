@@ -9,3 +9,11 @@ h1 {
         color: white;
     }
 }
+
+@media (max-width:250px) {
+    h1{background-color: aqua;}
+}
+
+@media (min-width: 700px) {
+    h1{background-color: blue;}
+}
