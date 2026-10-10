@@ -42,3 +42,36 @@
     grid-row: 12 / 13;
     background-color: pink;
 }
+
+@media (max-width: 720px) {
+
+    .header {
+        grid-column: 1 / 13;
+        grid-row: 1 / 2;
+    }
+
+    .sidebar {
+        grid-column: 1 / 4;
+        grid-row: 3 / 12;
+    }
+
+    .navigation {
+        grid-column: 1 / 13;
+        grid-row: 2 / 3;
+    }
+
+    .ads {
+        grid-column: 1 / 4;
+        grid-row: 12 / 13;
+    }
+
+    .main {
+        grid-column: 4 / 13;
+        grid-row: 3 / 12;
+    }
+
+    .footer {
+        grid-column: 4 / 13;
+        grid-row: 12 / 13;
+    }
+}
