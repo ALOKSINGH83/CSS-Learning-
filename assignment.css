@@ -1,26 +1,44 @@
-#container {
-    height: 50px;
-    width: 900px;
-    border: 2px solid teal;
-    border-radius: 10px;
+.container {
+    height: 800px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap: 10px;
+}
+
+.header {
+    grid-column: 1 / 13;
+    grid-row: 1 / 2;
     background-color: pink;
-    margin: 10px auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-content: space-evenly;
 }
 
-#container div {
-    height: 50px;
-    width: 80px;
-    border-radius: 10px;
-    font-size: 25px;
-    text-align: center;
-    padding-top: 10px;
+.sidebar {
+    grid-column: 1 / 4;
+    grid-row: 2 / 12;
+    background-color: pink;
 }
 
-#a {
-    flex-grow: 1.5;
-    max-width: 120px;
+.navigation {
+    grid-column: 4 / 10;
+    grid-row: 2 / 3;
+    background-color: pink;
+}
+
+.ads {
+    grid-column: 10 / 13;
+    grid-row: 2 / 12;
+    background-color: pink;
+}
+
+.main {
+    grid-column: 4 / 10;
+    grid-row: 3 / 12;
+    background-color: pink;
+}
+
+.footer {
+    grid-column: 1 / 13;
+    grid-row: 12 / 13;
+    background-color: pink;
 }
